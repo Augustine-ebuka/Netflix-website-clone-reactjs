@@ -1,11 +1,9 @@
 .signupForm {
   padding: auto;
   word-wrap: break-word;
-
 }
 
 .inputcard {
-
   position: relative;
 }
 
@@ -31,7 +29,7 @@ p {
   background-color: rgba(0, 0, 0, 0.2);
   outline: 0;
   color: aliceblue;
-  z-index: 100;
+  z-index: 10;
 }
 
 input:invalid {
