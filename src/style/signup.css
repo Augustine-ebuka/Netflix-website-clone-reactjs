@@ -1,0 +1,100 @@
+.signupForm {
+  padding: auto;
+  word-wrap: break-word;
+
+}
+
+.inputcard {
+
+  position: relative;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.inputcont {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.inputcard input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 300px;
+  padding: 7px 16px 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: 0;
+  color: aliceblue;
+  z-index: 100;
+}
+
+input:invalid {
+  outline: 0;
+}
+
+input:focus,
+input:valid {
+  border-color: gray;
+  outline: 1px;
+}
+
+label {
+  position: absolute;
+  top: 30%;
+  right: 36%;
+  width: 300px;
+  color: aliceblue;
+  transition: 0.2s all;
+  cursor: text;
+  font-size: 1rem;
+}
+
+.inputcont button {
+  width: 170px;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 50px;
+  padding: 7px 16px 8px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.2s all;
+}
+
+button:hover {
+  background-color: rgb(201, 7, 7);
+
+}
+
+button::after {
+  content: ">";
+  padding: 7px;
+  font-size: larger;
+  font-family: "poppins";
+}
+
+input:valid~label,
+input:focus~label {
+  font-size: 10px;
+  top: 7px;
+  color: aliceblue;
+}
+
+@media screen and (max-width:750px) {
+  .inputcont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+}
