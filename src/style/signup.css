@@ -40,6 +40,7 @@ input:focus,
 input:valid {
   border-color: gray;
   outline: 1px;
+  padding: auto;
 }
 
 label {
@@ -59,7 +60,6 @@ label {
   color: white;
   border: none;
   height: 50px;
-  padding: 7px 16px 8px;
   border-radius: 3px;
   font-size: 1rem;
   font-weight: 700;
@@ -71,12 +71,12 @@ button:hover {
 
 }
 
-button::after {
-  content: ">";
-  padding: 7px;
-  font-size: larger;
-  font-family: "poppins";
-}
+/* button::after { */
+/* content: ">"; */
+/* padding: 7px; */
+/* font-size: 2rem; */
+/* font-family: "poppins"; */
+/* } */
 
 input:valid~label,
 input:focus~label {

@@ -5,6 +5,7 @@
   height: 100vh;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
 }
 
 /* Add a semi-transparent overlay */

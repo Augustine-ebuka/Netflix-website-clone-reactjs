@@ -1,0 +1,57 @@
+.headerContainer {
+  padding: 0px 10px;
+  /* margin-top: 30px; */
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  width: 100%;
+  position: absolute;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+
+}
+
+.sigup .button {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 15px 7px 7px 7px;
+  border: none;
+  font-size: small;
+  width: 80px;
+  text-align: center;
+  transition: 0.3s all;
+  height: 25px;
+}
+
+.button:hover {
+  background-color: brown;
+}
+
+@media screen and (max-width:750px) {
+  .sigup .button {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    font-size: small;
+    width: 70px;
+    text-align: center;
+    transition: 0.3s all;
+    height: 20px;
+  }
+
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+  }
+}
